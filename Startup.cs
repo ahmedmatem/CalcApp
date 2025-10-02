@@ -39,7 +39,7 @@
             }
 
             Console.WriteLine("Pres any key to close the app...");
-            Console.ReadKey(true); Console.WriteLine("Hello, World!");
+            Console.ReadKey(true); Console.WriteLine("Hi, World!");
         }
     }
 }
