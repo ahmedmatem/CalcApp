@@ -6,7 +6,8 @@
             "a - Add",
             "s - Subtract",
             "m - Multiply",
-            "d - Devision"
+            "d - Devision",
+            "p = Power"
         };
 
         public static void Add(double a, double b)
@@ -27,6 +28,11 @@
         public static void Devision(double a, double b)
         {
             Console.WriteLine($"{a} / {b} = {a / b}");
+        }
+
+        public static void Power(double a, double b)
+        {
+            Console.WriteLine($"{a} ^ {b} = {Math.Pow(a, b)}");
         }
     }
 }
